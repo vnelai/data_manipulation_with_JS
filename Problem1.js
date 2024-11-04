@@ -53,12 +53,13 @@ console.log("is the code valid ", isValid);
 
 // Check if all numbers are divisible by 5
  let divisible_By_Five = (n1%5==0) && (n2%5==0) && (n3%5==0) && (n4%5==0);
-
 console.log("is_all_divisible_by_five: ", divisible_By_Five);
 
 
 // Check if the first number is larger than the last
-
 let first_Number_Larger_Than_Last = (n1 > n4);
-
 console.log("first number larger than last: ", first_Number_Larger_Than_Last);
+
+// Subtract the first number from the second number.
+let n2_Minus_n1 = (n2-n1);
+console.log("Subtract the first number from the second number.: ", n2_Minus_n1);
