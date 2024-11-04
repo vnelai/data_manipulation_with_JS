@@ -68,4 +68,8 @@ console.log("Subtract the first number from the second number.: ", n2_Minus_n1);
 let n2_Minus_n1_result_times_n3 = (n2_Minus_n1)*n3;
 console.log("Multiply the result (n2_Minus_n1) by the third number: ", n2_Minus_n1_result_times_n3);
 
+// Find the remainder of dividing the result by the fourth number.
+let remainder_Result_Divided_By_n4 = ( n2_Minus_n1_result_times_n3)%n4;
+console.log("remainder of dividing the result by the fourth number.: ",remainder_Result_Divided_By_n4 );
+
 
