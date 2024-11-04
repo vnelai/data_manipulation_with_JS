@@ -32,10 +32,15 @@ console.log(`fuelBudgetEnoughForSpeed60: ${fuelBudgetEnoughForSpeed60}`);
 console.log(`fuelBudgetEnoughForSpeed75: ${fuelBudgetEnoughForSpeed75}`);
 
 // How long will the trip take, in hours?
-let hoursTraveledSpeed55 = tripDistance / milesPerGallonSpeed55;
-let hoursTraveledSpeed60 = tripDistance / milesPerGallonSpeed60;
-let hoursTraveledSpeed75 = tripDistance / milesPerGallonSpeed75;
+let hoursTraveledSpeed55 = tripDistance / milesPerHourSpeed55;
+let hoursTraveledSpeed60 = tripDistance / milesPerHourSpeed60;
+let hoursTraveledSpeed75 = tripDistance / milesPerHourSpeed75;
 
 console.log(`hoursTraveledSpeed55 = ${hoursTraveledSpeed55.toFixed(2)}`);
 console.log(`hoursTraveledSpeed60 = ${hoursTraveledSpeed60.toFixed(2)}`);
 console.log(`hoursTraveledSpeed75 = ${hoursTraveledSpeed75.toFixed(2)}`);
+
+// Comparing Final Results
+console.log("For Speed 55 mph it takes " + hoursTraveledSpeed55.toFixed(2) + " hours to travel " + tripDistance + " and the fuel budget covers the gas needed (True or False):  " +  fuelBudgetEnoughForSpeed55);
+console.log("For Speed 60 mph it takes " + hoursTraveledSpeed60.toFixed(2) + " hours to travel " + tripDistance + " and the fuel budget covers the gas needed (True or False):  " +  fuelBudgetEnoughForSpeed60);
+console.log("For Speed 75 mph it takes " + hoursTraveledSpeed75.toFixed(2) + " hours to travel " + tripDistance + " and the fuel budget covers the gas needed (True or False):  " +  fuelBudgetEnoughForSpeed75);
