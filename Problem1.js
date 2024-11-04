@@ -63,3 +63,9 @@ console.log("first number larger than last: ", first_Number_Larger_Than_Last);
 // Subtract the first number from the second number.
 let n2_Minus_n1 = (n2-n1);
 console.log("Subtract the first number from the second number.: ", n2_Minus_n1);
+
+// Multiply the result (n2_Minus_n1) by the third number.
+let n2_Minus_n1_result_times_n3 = (n2_Minus_n1)*n3;
+console.log("Multiply the result (n2_Minus_n1) by the third number: ", n2_Minus_n1_result_times_n3);
+
+
