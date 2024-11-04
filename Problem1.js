@@ -34,7 +34,7 @@ console.log("is the code valid ", isValid);
 
 
 // Check if all numbers are divisible by 5
- let divisibleByFive = (n1%5==0) && (n2%5==0) && (n3%5==0) && (n4%5==0);
+let divisibleByFive = (n1%5==0) && (n2%5==0) && (n3%5==0) && (n4%5==0);
 console.log("is_all_divisible_by_five: ", divisibleByFive);
 
 
